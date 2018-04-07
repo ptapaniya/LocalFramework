@@ -1,0 +1,19 @@
+{
+  "name": "LocoFramework",
+  "version": "1.0.0",
+  "summary": "This is such a LocoFramework.",
+  "description": "This is some super loco framework.",
+  "homepage": "https://github.com/ptapaniya/LocalFramework",
+  "license": "MIT",
+  "authors": {
+    "ptapaniya": "ptapaniya@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/ptapaniya/LocalFramework.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "LocoFramework/**/*"
+}

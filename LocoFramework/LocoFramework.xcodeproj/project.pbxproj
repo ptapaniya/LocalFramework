@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CD3CD7022078D3B8002F9F6D /* LocoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3CD6F82078D3B8002F9F6D /* LocoFramework.framework */; };
-		CD3CD7072078D3B8002F9F6D /* LocoFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3CD7062078D3B8002F9F6D /* LocoFrameworkTests.swift */; };
 		CD3CD7092078D3B8002F9F6D /* LocoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3CD6FB2078D3B8002F9F6D /* LocoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD3CD7132078D442002F9F6D /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3CD7122078D442002F9F6D /* Activity.swift */; };
 /* End PBXBuildFile section */
@@ -28,8 +27,6 @@
 		CD3CD6FB2078D3B8002F9F6D /* LocoFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocoFramework.h; sourceTree = "<group>"; };
 		CD3CD6FC2078D3B8002F9F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3CD7012078D3B8002F9F6D /* LocoFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocoFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD3CD7062078D3B8002F9F6D /* LocoFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocoFrameworkTests.swift; sourceTree = "<group>"; };
-		CD3CD7082078D3B8002F9F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3CD7122078D442002F9F6D /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				CD3CD6FA2078D3B8002F9F6D /* LocoFramework */,
-				CD3CD7052078D3B8002F9F6D /* LocoFrameworkTests */,
 				CD3CD6F92078D3B8002F9F6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,15 +74,6 @@
 				CD3CD6FC2078D3B8002F9F6D /* Info.plist */,
 			);
 			path = LocoFramework;
-			sourceTree = "<group>";
-		};
-		CD3CD7052078D3B8002F9F6D /* LocoFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				CD3CD7062078D3B8002F9F6D /* LocoFrameworkTests.swift */,
-				CD3CD7082078D3B8002F9F6D /* Info.plist */,
-			);
-			path = LocoFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3CD7072078D3B8002F9F6D /* LocoFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

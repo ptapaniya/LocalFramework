@@ -1,15 +1,15 @@
 //
-//  LocoFrameworkTests.swift
-//  LocoFrameworkTests
+//  Control_1Tests.swift
+//  Control_1Tests
 //
 //  Created by prakash on 07/04/18.
 //  Copyright © 2018 prakash. All rights reserved.
 //
 
 import XCTest
-@testable import LocoFramework
+@testable import Control_1
 
-class LocoFrameworkTests: XCTestCase {
+class Control_1Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
